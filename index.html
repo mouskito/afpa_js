@@ -20,17 +20,20 @@ Sinon il affichera le message ‘Toutes différentes’
 	/*if (isNaN(valeur1)) {
 		alert("entrez que des chiffres");
 	}*/
+	var valeur1 = "";
+	var valeur2="a";
+	var valeur3="";
 
 	do{
-		var valeur1 = prompt("Saisir une valeur 1");
+		 valeur1 = prompt("Saisir une valeur 1");
 	}while(isNaN(valeur1))
 
 	do{
-		var valeur2 = prompt("Saisir une valeur deux");
+		valeur2 = prompt("Saisir une valeur deux");
 	}while(isNaN(valeur2))
 
 	do{
-		var valeur3 = prompt("Saisir une valeur trois");
+		valeur3 = prompt("Saisir une valeur trois");
 	}while(isNaN(valeur3))
 
 	console.log(valeur1+ "-"+ valeur2 + "-"+ valeur3);
